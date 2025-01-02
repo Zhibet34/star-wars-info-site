@@ -1,0 +1,69 @@
+body{
+  background-color: azure;
+}
+.options{
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options label{
+  margin-bottom: 1.2em;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.person-info{
+  border-radius: 1.4em;
+  width: 400px;
+  margin: 2em;
+  padding: 0.5em 0 0.5em 0;
+  background-color: rgb(255, 244, 212);
+  border: 1px solid rgb(182, 182, 182);
+  box-shadow: 13px 10px rgb(113, 113, 113);
+}
+
+.person-info h1{
+  text-align: center;
+}
+
+.person-info li{
+  margin-bottom: 0.3em;
+  height: 1.3em;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+
+.planet-info{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 126, 152);
+}
+
+.planet-info li{
+  display: inline-block;
+  margin-left: 1.6em;
+  font-size: 1em;
+  text-transform: capitalize;
+}
+
+li b{
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-style: italic;
+  padding-right:0.3em;
+}
+
+.title{
+  text-align: center;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  margin-top: 0;
+  padding: 10px;
+  background-color: grey;
+}
